@@ -5,7 +5,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
-use App\Models\Page;
+// use App\Models\Page;
 use App\Models\Room;
 use App\Models\Setting;
 
@@ -31,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Paginator::useBootstrap();
 
-        $page_data = Page::where('id',1)->first();
+//         $page_data = Page::where('id',1)->first();
         $room_data = Room::get();
         $setting_data = Setting::where('id',1)->first();
 
