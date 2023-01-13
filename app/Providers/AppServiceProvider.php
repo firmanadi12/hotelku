@@ -6,8 +6,8 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
 // use App\Models\Page;
-use App\Models\Room;
-use App\Models\Setting;
+// use App\Models\Room;
+// use App\Models\Setting;
 
 
 class AppServiceProvider extends ServiceProvider
